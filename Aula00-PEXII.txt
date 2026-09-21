@@ -1,0 +1,559 @@
+ENGLISH & LOGIC: AULA 1
+
+MATERIAL DO ALUNO: 8º ANO
+
+English & Logic: aprendendo a pensar como um programador
+
+Primeiro contato com inglês técnico e lógica de programação, um convite para pensar em passos, como um algoritmo.
+
+Público: 8º ano do Ensino Fundamental
+Duração: 1h30, com versão de 45 minutos disponível
+Nível: Iniciante absoluto
+
+OBJETIVOS DA AULA
+
+Ao final da aula, o aluno deverá:
+
+1. Reconhecer algumas palavras básicas em inglês usadas na tecnologia.
+2. Conseguir se apresentar usando frases simples.
+3. Entender o conceito de algoritmo.
+4. Perceber que usamos lógica no cotidiano.
+5. Montar uma sequência simples de instruções.
+6. Começar a relacionar inglês, lógica e programação.
+
+PARTE 1: INGLÊS
+
+1. Começando sem medo
+
+English is everywhere.
+
+O inglês aparece em:
+
+Jogos
+Celulares
+Computadores
+Aplicativos
+Internet
+Programação
+Músicas
+Redes sociais
+
+A ideia não é ensinar gramática pesada na primeira aula. Primeiro, eles precisam perceber que já conhecem várias palavras em inglês.
+
+Atividade: Eu já sei inglês?
+
+game: jogo
+computer: computador
+internet: internet
+smartphone: celular
+mouse: mouse
+keyboard: teclado
+password: senha
+login: entrar ou acesso
+online: conectado
+code: código
+
+Pergunte:
+
+Quantas dessas palavras vocês já conheciam?
+
+2. Primeira apresentação em inglês
+
+Hello!
+
+Olá!
+
+Hi!
+
+Oi!
+
+My name is...
+
+Meu nome é...
+
+I am...
+
+Eu sou...
+
+I am from Brazil.
+
+Eu sou do Brasil.
+
+I am a student.
+
+Eu sou estudante.
+
+Modelo:
+
+Hello! My name is Ana.
+
+I am from Brazil.
+
+I am a student.
+
+Depois cada aluno pode montar sua própria apresentação.
+
+Dinâmica em duplas
+
+ALUNO A
+
+Hello! What's your name?
+
+ALUNO B
+
+Hi! My name is João.
+
+ALUNO A
+
+Nice to meet you!
+
+ALUNO B
+
+Nice to meet you too!
+
+Não precisa exigir pronúncia perfeita. O objetivo é perder a vergonha de falar inglês.
+
+PARTE 2: INGLÊS NA TECNOLOGIA
+
+Agora fazemos a conexão com programação, com palavras que os alunos provavelmente vão encontrar depois.
+
+code: código
+program: programa
+computer: computador
+developer: desenvolvedor
+website: site
+app: aplicativo
+data: dados
+password: senha
+user: usuário
+button: botão
+error: erro
+save: salvar
+delete: excluir
+search: pesquisar
+
+Mini desafio
+
+What does "SAVE" mean?
+
+A turma responde:
+
+Salvar!
+
+What does "DELETE" mean?
+
+A resposta é:
+
+Excluir!
+
+Isso mostra que aprender inglês pode ajudar diretamente quem quer trabalhar com tecnologia.
+
+PARTE 3: O QUE É LÓGICA?
+
+Se eu pedir para vocês ensinarem um robô a fazer um sanduíche, o que vocês diriam?
+
+Provavelmente:
+
+Faça um sanduíche.
+
+Então pergunte:
+
+Mas o robô sabe o que é um sanduíche?
+
+Lógica
+
+É organizar ideias e passos para chegar a um resultado.
+
+Programadores usam lógica para dizer ao computador o que fazer e em qual ordem fazer.
+
+O QUE É UM ALGORITMO?
+
+Algoritmo é uma sequência de passos para realizar uma tarefa ou resolver um problema.
+
+Exemplo de algoritmo: escovar os dentes
+
+1. Pegar a escova.
+2. Colocar pasta de dente.
+3. Molhar a escova.
+4. Escovar os dentes.
+5. Enxaguar a boca.
+6. Lavar a escova.
+7. Guardar a escova.
+
+Pergunte:
+
+E se eu colocar a pasta depois de escovar os dentes?
+
+Eles perceberão que a ordem importa.
+
+DESAFIO DO ROBÔ HUMANO
+
+Essa pode ser a atividade principal da primeira aula.
+
+Escolha um aluno para ser o robô. Outro aluno precisa dar instruções para o robô chegar até determinado ponto da sala.
+
+Por exemplo:
+
+Dê 3 passos para frente.
+
+Vire para a direita.
+
+Dê 2 passos.
+
+Pare.
+
+O robô só pode fazer exatamente o que foi pedido.
+
+Se alguém falar:
+
+Vá até a porta.
+
+O robô pode responder:
+
+Como?
+
+O computador não adivinha. Ele precisa receber instruções claras.
+
+LÓGICA DO COTIDIANO
+
+Você quer sair de casa, mas está chovendo. O que você faz?
+
+SE
+
+estiver chovendo
+
+pegar o guarda chuva
+
+SENÃO
+
+sair normalmente
+
+SE = IF
+
+SENÃO = ELSE
+
+E pronto: eles já tiveram contato com uma das ideias fundamentais da programação.
+
+Desafio rápido
+
+O que o programa deve fazer?
+
+SE
+
+a senha estiver correta
+
+entrar
+
+SENÃO
+
+mostrar "senha incorreta"
+
+Se a senha for 1234 e a senha correta for 1234, o que acontece?
+
+Entrar.
+
+E se a senha for 5678?
+
+Senha incorreta.
+
+ATIVIDADE FINAL
+
+MINHA APRESENTAÇÃO
+
+Hello! My name is __________.
+
+I am from Brazil.
+
+I am a student.
+
+I like __________.
+
+MEU PRIMEIRO ALGORITMO
+
+Como fazer algo que eu conheço?
+
+Escolha uma atividade:
+
+Fazer um miojo.
+Jogar um jogo.
+Escovar os dentes.
+Fazer um sanduíche.
+Ligar um computador.
+Usar um aplicativo.
+Preparar uma bebida.
+
+Escreva de 5 a 8 passos.
+
+DESAFIO EXTRA
+
+Quem consegue encontrar um erro no algoritmo abaixo?
+
+1. Colocar o tênis.
+2. Colocar a meia.
+3. Sair de casa.
+
+Resposta:
+
+A meia deveria ser colocada antes do tênis.
+
+Programar também é encontrar e corrigir erros, e isso introduz naturalmente o conceito de bug.
+
+FECHAMENTO DA AULA
+
+Hoje vocês aprenderam duas coisas importantes.
+
+Inglês
+
+Algumas palavras e frases que já aparecem no mundo da tecnologia.
+
+Lógica
+
+Como organizar passos para resolver problemas.
+
+Na programação, usamos lógica para ensinar computadores a executar tarefas.
+
+Antes de aprender a programar, precisamos aprender a pensar.
+
+TAREFA PARA CASA
+
+Inglês
+
+Pesquisar 10 palavras em inglês que aparecem em celulares, jogos ou computadores e escrever a tradução.
+
+Lógica
+
+Criar um algoritmo com 5 a 10 passos para uma atividade do cotidiano.
+
+Exemplo de algoritmo: preparar um sanduíche
+
+1. Pegar o pão.
+2. Abrir o pão.
+3. Colocar o recheio.
+4. Fechar o pão.
+5. Colocar no prato.
+
+VERSÃO DE 45 MINUTOS COM VÍDEOS
+
+Inglês: saudações
+
+Super Simple Songs, animado e visual, trabalha:
+
+Hello
+How are you?
+I'm good.
+I'm great.
+I'm tired.
+I'm hungry.
+
+Saudações
+
+Hello: Olá.
+Hi: Oi.
+Good morning: Bom dia.
+How are you?: Como você está?
+I'm good: Estou bem.
+I'm great: Estou ótimo ou ótima.
+Goodbye: Tchau.
+
+Para o 8º ano, os alunos repetem em duplas:
+
+Hello.
+Hi.
+How are you?
+I'm good.
+
+LÓGICA BEM CURTINHO
+
+Em vez de um vídeo muito infantil sobre programação, uma explicação direta seguida de demonstração prática.
+
+Um algoritmo é uma sequência de passos para realizar uma tarefa.
+
+Como fazer um sanduíche?
+
+1. Pegar o pão.
+2. Abrir o pão.
+3. Colocar o recheio.
+4. Fechar o pão.
+5. Comer.
+
+Pergunte:
+
+E se eu colocar o recheio depois de comer?
+
+Os alunos entendem a ideia de ordem dos passos, base da lógica de programação.
+
+TEMPO DA AULA
+
+5 minutos: Apresentação e explicar o que será a aula
+4 minutos: Vídeo de inglês
+8 minutos: Explicar saudações e repetição em duplas
+3 minutos: Vídeo curtinho de lógica
+8 minutos: Explicar algoritmo e sequência
+12 minutos: Atividade impressa
+5 minutos: Correção e conversa final
+
+Total: 45 minutos
+
+OBJETIVO
+
+Evitar conteúdo demais na primeira aula.
+
+Os alunos devem sair pensando:
+
+Eu consigo falar algumas coisas em inglês.
+
+Eu consigo entender o que é lógica.
+
+Programação não é tão difícil quanto eu imaginava.
+
+ESTRUTURA DA PRÓXIMA AULA
+
+Aula 2: Como um computador entende nossas instruções?
+
+Revisão do inglês.
+Comandos básicos.
+Algoritmo.
+Sequência.
+Entrada, processamento e saída.
+Primeiros exercícios de lógica.
+Introdução ao conceito de programação.
+Atividade prática em grupo.
+
+EXERCÍCIOS PARA FIXAR O APRENDIZADO
+
+1. VOCABULÁRIO: LIGUE OS PARES
+
+Inglês:
+
+developer
+website
+error
+button
+search
+
+Português:
+
+botão
+pesquisar
+site
+erro
+desenvolvedor
+
+2. COMPLETE O DIÁLOGO
+
+Complete as falas com as expressões que você aprendeu.
+
+Hello
+Hi
+My name is
+Nice to meet you
+
+ALUNO A:
+
+What's your name?
+
+ALUNO B:
+
+Hi!
+
+Pedro.
+
+ALUNO A:
+
+!
+
+ALUNO B:
+
+Nice to meet you too!
+
+3. VERDADEIRO OU FALSO
+
+O computador consegue adivinhar o que queremos, mesmo sem instruções claras. ( )
+
+"Password" significa "senha". ( )
+
+"Delete" significa "salvar". ( )
+
+Um algoritmo é uma sequência de passos para resolver um problema. ( )
+
+4. COLOQUE OS PASSOS NA ORDEM CORRETA
+
+Numere de 1 a 5 a ordem certa para fazer um sanduíche.
+
+( ) Fechar o pão.
+( ) Abrir o pão.
+( ) Pegar o pão.
+( ) Comer.
+( ) Colocar o recheio.
+
+5. SE E SENÃO
+
+Complete a lógica de cada situação, como fizemos com o exemplo da chuva.
+
+A
+
+SE
+
+a bateria do celular estiver fraca
+
+SENÃO
+
+B
+
+SE
+
+o jogo pedir a senha errada três vezes
+
+SENÃO
+
+6. TESTE A LÓGICA DA SENHA
+
+SE
+
+a senha estiver correta
+
+entrar
+
+SENÃO
+
+mostrar "senha incorreta"
+
+Senha correta:
+
+2580
+
+A
+
+Se o usuário digitar 2580, o programa mostra:
+
+______________________________
+
+B
+
+Se o usuário digitar 1111, o programa mostra:
+
+______________________________
+
+7. ENCONTRE O BUG
+
+Assim como no exemplo do tênis e da meia, encontre o erro na ordem abaixo:
+
+1. Tomar banho.
+2. Colocar sabonete no corpo.
+3. Se enxaguar.
+
+Onde está o erro?
+
+______________________________
+
+8. TAREFA DE CASA: CHECKLIST
+
+Pesquisei 10 palavras em inglês usadas em celulares, jogos ou computadores.
+
+Escrevi a tradução de cada palavra.
+
+Criei um algoritmo com 5 a 10 passos de uma atividade do meu dia a dia.
+
+ENGLISH & LOGIC: AULA 1
+
+8º ANO DO ENSINO FUNDAMENTAL
