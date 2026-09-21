@@ -263,10 +263,10 @@ O arquivo `index.html` ficará como página inicial do projeto.
 
 ## Material complementar
 
-O projeto também pode ser acompanhado por um material em PDF para impressão:
+O projeto também pode ser acompanhado por um material em PDF para impressão no drive:
 
 ```text
-Aula1_English_Logic_Material_de_Estudo.pdf
+Aula00PEXII.pdf
 ```
 
 Esse arquivo não faz parte dos três arquivos usados para o funcionamento da página, mas pode ser mantido no repositório como material complementar da aula.
