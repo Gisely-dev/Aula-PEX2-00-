@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>English &amp; Logic: Aula 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="dot"></span>ENGLISH &amp; LOGIC · AULA 1</div>
+    <button class="torch-btn" id="torchBtn" aria-label="Alternar modo claro/escuro">
+      <svg viewBox="0 0 24 24" fill="none">
+        <g class="torch-beam"><path d="M12 2v3M6 4l1.8 2.4M18 4l-1.8 2.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></g>
+        <path d="M9 3h6l1 4-2.4 2.2v9.3a1.5 1.5 0 01-1.5 1.5h-.2a1.5 1.5 0 01-1.5-1.5V9.2L8 7l1-4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M9.3 7h5.4" stroke="currentColor" stroke-width="1.6"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<div class="wrap">
+  <section class="hero">
+    <div class="eyebrow">MATERIAL DO ALUNO · 8º ANO</div>
+    <h1>English &amp; Logic: aprendendo a pensar como um <em>programador</em></h1>
+    <p class="sub">Primeiro contato com inglês técnico e lógica de programação, um convite para pensar em passos, como um algoritmo.</p>
+    <div class="meta-row">
+      <div><span>Público</span>8º ano do Ensino Fundamental</div>
+      <div><span>Duração</span>1h30 (versão de 45 min disponível)</div>
+      <div><span>Nível</span>Iniciante absoluto</div>
+    </div>
+  </section>
+
+  <nav class="lesson-nav">
+    <a href="#objetivos">Objetivos</a>
+    <a href="#parte1">1 · Inglês</a>
+    <a href="#parte2">2 · Inglês na tecnologia</a>
+    <a href="#parte3">3 · O que é lógica</a>
+    <a href="#parte4">4 · Algoritmo</a>
+    <a href="#robo">5 · Robô humano</a>
+    <a href="#cotidiano">6 · Lógica do cotidiano</a>
+    <a href="#final">Atividade final</a>
+    <a href="#extra">Desafio extra</a>
+    <a href="#fechamento">Fechamento</a>
+    <a href="#casa">Tarefa de casa</a>
+    <a href="#45min">Versão 45 min</a>
+    <a href="#proxima">Próxima aula</a>
+    <a href="#exercicios">Exercícios</a>
+  </nav>
+
+  <!-- o que o aluno vai aprender nessa aula -->
+  <section class="block" id="objetivos">
+    <div class="block-head">
+      <span class="step-num">•</span>
+      <h2>Objetivos da aula</h2>
+    </div>
+    <p>Ao final da aula, o aluno deverá:</p>
+    <ul>
+      <li>reconhecer algumas palavras básicas em inglês usadas na tecnologia;</li>
+      <li>conseguir se apresentar usando frases simples;</li>
+      <li>entender o conceito de algoritmo;</li>
+      <li>perceber que usamos lógica no cotidiano;</li>
+      <li>montar uma sequência simples de instruções;</li>
+      <li>começar a relacionar inglês, lógica e programação.</li>
+    </ul>
+  </section>
+
+  <!-- parte 1: primeiras palavras e frases em inglês -->
+  <section class="block" id="parte1">
+    <div class="block-head">
+      <span class="step-num">1</span>
+      <div><span class="kicker">PARTE 1</span><h2>Inglês</h2></div>
+    </div>
+
+    <h3 class="mini">1. Começando sem medo</h3>
+    <div class="quote">English is everywhere.</div>
+    <p>O inglês aparece em: jogos; celulares; computadores; aplicativos; internet; programação; músicas; redes sociais.</p>
+    <p>A ideia não é ensinar gramática pesada na primeira aula. Primeiro, eles precisam perceber que já conhecem várias palavras em inglês.</p>
+
+    <div class="card">
+      <strong>Atividade: "Eu já sei inglês?"</strong>
+      <table>
+        <tr><th>English</th><th>Português</th></tr>
+        <tr><td class="en">game</td><td class="pt">jogo</td></tr>
+        <tr><td class="en">computer</td><td class="pt">computador</td></tr>
+        <tr><td class="en">internet</td><td class="pt">internet</td></tr>
+        <tr><td class="en">smartphone</td><td class="pt">celular</td></tr>
+        <tr><td class="en">mouse</td><td class="pt">mouse</td></tr>
+        <tr><td class="en">keyboard</td><td class="pt">teclado</td></tr>
+        <tr><td class="en">password</td><td class="pt">senha</td></tr>
+        <tr><td class="en">login</td><td class="pt">entrar/acesso</td></tr>
+        <tr><td class="en">online</td><td class="pt">conectado</td></tr>
+        <tr><td class="en">code</td><td class="pt">código</td></tr>
+      </table>
+      <p style="margin:0"><em>Pergunte: "Quantas dessas palavras vocês já conheciam?"</em></p>
+    </div>
+
+    <h3 class="mini">2. Primeira apresentação em inglês</h3>
+    <table>
+      <tr><td class="en">Hello!</td><td>→ Olá!</td></tr>
+      <tr><td class="en">Hi!</td><td>→ Oi!</td></tr>
+      <tr><td class="en">My name is...</td><td>→ Meu nome é...</td></tr>
+      <tr><td class="en">I am...</td><td>→ Eu sou...</td></tr>
+      <tr><td class="en">I am from Brazil.</td><td>→ Eu sou do Brasil.</td></tr>
+      <tr><td class="en">I am a student.</td><td>→ Eu sou estudante.</td></tr>
+    </table>
+    <p><strong>Modelo</strong></p>
+    <div class="quote">Hello! My name is Ana.<br>I am from Brazil.<br>I am a student.</div>
+    <p>Depois cada aluno pode montar sua própria apresentação.</p>
+
+    <p><strong>Dinâmica em duplas</strong></p>
+    <div class="dialogue">
+      <div class="line"><span class="who">ALUNO A</span>Hello! What's your name?</div>
+      <div class="line"><span class="who">ALUNO B</span>Hi! My name is João.</div>
+      <div class="line"><span class="who">ALUNO A</span>Nice to meet you!</div>
+      <div class="line"><span class="who">ALUNO B</span>Nice to meet you too!</div>
+    </div>
+    <p>Não precisa exigir pronúncia perfeita. O objetivo é perder a vergonha de falar inglês.</p>
+  </section>
+
+  <!-- parte 2: vocabulário de tecnologia -->
+  <section class="block" id="parte2">
+    <div class="block-head">
+      <span class="step-num">2</span>
+      <div><span class="kicker">PARTE 2</span><h2>Inglês na tecnologia</h2></div>
+    </div>
+    <p>Agora fazemos a conexão com programação, com palavras que os alunos provavelmente vão encontrar depois:</p>
+    <table>
+      <tr><th>Palavra</th><th>Significado</th></tr>
+      <tr><td class="en">code</td><td class="pt">código</td></tr>
+      <tr><td class="en">program</td><td class="pt">programa</td></tr>
+      <tr><td class="en">computer</td><td class="pt">computador</td></tr>
+      <tr><td class="en">developer</td><td class="pt">desenvolvedor</td></tr>
+      <tr><td class="en">website</td><td class="pt">site</td></tr>
+      <tr><td class="en">app</td><td class="pt">aplicativo</td></tr>
+      <tr><td class="en">data</td><td class="pt">dados</td></tr>
+      <tr><td class="en">password</td><td class="pt">senha</td></tr>
+      <tr><td class="en">user</td><td class="pt">usuário</td></tr>
+      <tr><td class="en">button</td><td class="pt">botão</td></tr>
+      <tr><td class="en">error</td><td class="pt">erro</td></tr>
+      <tr><td class="en">save</td><td class="pt">salvar</td></tr>
+      <tr><td class="en">delete</td><td class="pt">excluir</td></tr>
+      <tr><td class="en">search</td><td class="pt">pesquisar</td></tr>
+    </table>
+    <div class="card">
+      <strong>Mini desafio</strong>
+      <p>Pergunte: <em>"What does 'SAVE' mean?"</em>. A turma responde: <em>"Salvar!"</em></p>
+      <p>Depois: <em>"What does 'DELETE' mean?"</em> e a resposta é <em>"Excluir!"</em></p>
+      <p style="margin:0">Isso mostra que aprender inglês pode ajudar diretamente quem quer trabalhar com tecnologia.</p>
+    </div>
+  </section>
+
+  <!-- parte 3: introdução ao conceito de lógica -->
+  <section class="block logic" id="parte3">
+    <div class="block-head">
+      <span class="step-num">3</span>
+      <div><span class="kicker">PARTE 3</span><h2>O que é lógica?</h2></div>
+    </div>
+    <p><em>"Se eu pedir para vocês ensinarem um robô a fazer um sanduíche, o que vocês diriam?"</em></p>
+    <p>Provavelmente: <em>"Faça um sanduíche."</em></p>
+    <p>Então pergunte: <em>"Mas o robô sabe o que é um sanduíche?"</em></p>
+    <div class="callout">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9c.4.3.6.8.6 1.3V16h5.8v-.8c0-.5.2-1 .6-1.3A6 6 0 0012 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      <div><strong>Lógica</strong> é organizar ideias e passos para chegar a um resultado. Programadores usam lógica para dizer ao computador o que fazer e em qual ordem fazer.</div>
+    </div>
+  </section>
+
+  <!-- parte 4: o que é um algoritmo, com exemplo -->
+  <section class="block logic" id="parte4">
+    <div class="block-head">
+      <span class="step-num">4</span>
+      <h2>O que é um algoritmo?</h2>
+    </div>
+    <div class="quote">Algoritmo é uma sequência de passos para realizar uma tarefa ou resolver um problema.</div>
+    <div class="illus">
+      <svg viewBox="0 0 340 90" fill="none">
+        <circle cx="30" cy="45" r="22" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/><text x="30" y="50" font-family="IBM Plex Mono" font-size="12" text-anchor="middle" fill="var(--amber)" style="fill:var(--amber)">1</text>
+        <path d="M56 45h30" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/>
+        <circle cx="100" cy="45" r="22" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/><text x="100" y="50" font-family="IBM Plex Mono" font-size="12" text-anchor="middle" style="fill:var(--amber)">2</text>
+        <path d="M126 45h30" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/>
+        <circle cx="170" cy="45" r="22" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/><text x="170" y="50" font-family="IBM Plex Mono" font-size="12" text-anchor="middle" style="fill:var(--amber)">3</text>
+        <path d="M196 45h30" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/>
+        <circle cx="240" cy="45" r="22" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/><text x="240" y="50" font-family="IBM Plex Mono" font-size="12" text-anchor="middle" style="fill:var(--amber)">4</text>
+        <path d="M266 45h30" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/>
+        <circle cx="310" cy="45" r="22" stroke="currentColor" style="color:var(--amber)" stroke-width="2"/><text x="310" y="50" font-family="IBM Plex Mono" font-size="12" text-anchor="middle" style="fill:var(--amber)">5</text>
+      </svg>
+    </div>
+    <p><strong>Exemplo de algoritmo: escovar os dentes</strong></p>
+    <ol>
+      <li>pegar a escova;</li><li>colocar pasta de dente;</li><li>molhar a escova;</li>
+      <li>escovar os dentes;</li><li>enxaguar a boca;</li><li>lavar a escova;</li><li>guardar a escova.</li>
+    </ol>
+    <p><em>"E se eu colocar a pasta depois de escovar os dentes?"</em> Eles perceberão que a ordem importa.</p>
+  </section>
+
+  <!-- atividade prática: o jogo do robô humano -->
+  <section class="block logic" id="robo">
+    <div class="block-head">
+      <span class="step-num">5</span>
+      <h2>Desafio do robô humano</h2>
+    </div>
+    <p>Essa pode ser a atividade principal da primeira aula.</p>
+    <p>Escolha um aluno para ser o robô. Outro aluno precisa dar instruções para o robô chegar até determinado ponto da sala. Por exemplo:</p>
+    <div class="quote">dê 3 passos para frente<br>vire para a direita<br>dê 2 passos<br>pare</div>
+    <p>O "robô" só pode fazer exatamente o que foi pedido. Se alguém falar <em>"vá até a porta"</em>, o robô pode responder <em>"Como?"</em></p>
+    <div class="callout">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9c.4.3.6.8.6 1.3V16h5.8v-.8c0-.5.2-1 .6-1.3A6 6 0 0012 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      <div>O computador não "adivinha". Ele precisa receber instruções claras.</div>
+    </div>
+  </section>
+
+  <!-- exemplos de SE / SENÃO no dia a dia -->
+  <section class="block logic" id="cotidiano">
+    <div class="block-head">
+      <span class="step-num">6</span>
+      <h2>Lógica do cotidiano</h2>
+    </div>
+    <p><em>"Você quer sair de casa, mas está chovendo. O que você faz?"</em></p>
+    <div class="code"><span class="kw">SE</span> estiver chovendo
+    pegar o guarda-chuva
+<span class="kw">SENÃO</span>
+    sair normalmente</div>
+    <p><span class="en">SE</span> = IF &nbsp;&nbsp;|&nbsp;&nbsp; <span class="en">SENÃO</span> = ELSE</p>
+    <p>E pronto: eles já tiveram contato com uma das ideias fundamentais da programação.</p>
+
+    <h3 class="mini">Desafio rápido</h3>
+    <p>"O que o programa deve fazer?"</p>
+    <div class="code"><span class="kw">SE</span> a senha estiver correta
+    entrar
+<span class="kw">SENÃO</span>
+    mostrar "senha incorreta"</div>
+    <p>Se a senha for <strong>1234</strong> e a senha correta for <strong>1234</strong>, o que acontece? → <em>entrar.</em></p>
+    <p>E se a senha for <strong>5678</strong>? → <em>senha incorreta.</em></p>
+  </section>
+
+  <!-- atividade para o aluno fazer em sala -->
+  <section class="block" id="final">
+    <div class="block-head">
+      <span class="step-num">✎</span>
+      <h2>Atividade final</h2>
+    </div>
+    <div class="exercise">
+      <span class="ex-title">MINHA APRESENTAÇÃO</span>
+      <p>Hello! My name is <span class="fill"></span>. I am from Brazil. I am a student. I like <span class="fill"></span>.</p>
+    </div>
+    <div class="exercise logic">
+      <span class="ex-title">MEU PRIMEIRO ALGORITMO</span>
+      <p>"Como fazer algo que eu conheço?" Escolha: fazer um miojo; jogar um jogo; escovar os dentes; fazer um sanduíche; ligar um computador; usar um aplicativo; preparar uma bebida. Escreva de 5 a 8 passos.</p>
+    </div>
+  </section>
+
+  <!-- desafio bônus: achar o erro no algoritmo -->
+  <section class="block logic" id="extra">
+    <div class="block-head">
+      <span class="step-num">!</span>
+      <h2>Desafio extra</h2>
+    </div>
+    <p><em>"Quem consegue encontrar um erro no algoritmo abaixo?"</em></p>
+    <ol><li>colocar o tênis</li><li>colocar a meia</li><li>sair de casa</li></ol>
+    <p>Resposta: <em>a meia deveria ser colocada antes do tênis.</em></p>
+    <p>Programar também é encontrar e corrigir erros, e isso introduz naturalmente o conceito de <strong>bug</strong>.</p>
+  </section>
+
+  <!-- resumo do que foi visto na aula -->
+  <section class="block" id="fechamento">
+    <div class="block-head">
+      <span class="step-num">✓</span>
+      <h2>Fechamento da aula</h2>
+    </div>
+    <p>Hoje vocês aprenderam duas coisas importantes:</p>
+    <ul>
+      <li><strong>Inglês:</strong> algumas palavras e frases que já aparecem no mundo da tecnologia.</li>
+      <li><strong>Lógica:</strong> como organizar passos para resolver problemas.</li>
+    </ul>
+    <p>Na programação, usamos lógica para ensinar computadores a executar tarefas.</p>
+    <div class="quote">"Antes de aprender a programar, precisamos aprender a pensar."</div>
+  </section>
+
+  <!-- o que o aluno leva para casa -->
+  <section class="block" id="casa">
+    <div class="block-head">
+      <span class="step-num">⌂</span>
+      <h2>Tarefa para casa</h2>
+    </div>
+    <ul class="checklist">
+      <li><strong>Inglês:</strong> pesquisar 10 palavras em inglês que aparecem em celulares, jogos ou computadores e escrever a tradução.</li>
+      <li><strong>Lógica:</strong> criar um algoritmo com 5 a 10 passos para uma atividade do cotidiano.</li>
+    </ul>
+    <p><strong>Exemplo de algoritmo: preparar um sanduíche</strong></p>
+    <ol>
+      <li>pegar o pão;</li><li>abrir o pão;</li><li>colocar o recheio;</li><li>fechar o pão;</li><li>colocar no prato.</li>
+    </ol>
+  </section>
+
+  <!-- versão resumida da aula, com vídeos -->
+  <section class="block" id="45min">
+    <div class="block-head">
+      <span class="step-num">⏱</span>
+      <h2>Versão de 45 minutos com vídeos</h2>
+    </div>
+
+    <h3 class="mini">Inglês: saudações</h3>
+    <div class="video-embed">
+      <div class="thumb"><svg viewBox="0 0 24 24" fill="none"><path d="M8 5v14l12-7L8 5z" fill="currentColor"/></svg></div>
+      <div>
+        <a href="https://www.youtube.com/watch?v=tVlcKp3bWH8" target="_blank" rel="noopener">Hello! | Kids Greeting Song and Feelings Song</a>
+        <div class="cap">Super Simple Songs, animado e visual, trabalha Hello, How are you?, I'm good, I'm great, I'm tired, I'm hungry.</div>
+      </div>
+    </div>
+    <table>
+      <tr><td class="en">Hello</td><td>= Olá</td></tr>
+      <tr><td class="en">Hi</td><td>= Oi</td></tr>
+      <tr><td class="en">Good morning</td><td>= Bom dia</td></tr>
+      <tr><td class="en">How are you?</td><td>= Como você está?</td></tr>
+      <tr><td class="en">I'm good</td><td>= Estou bem</td></tr>
+      <tr><td class="en">I'm great</td><td>= Estou ótimo(a)</td></tr>
+      <tr><td class="en">Goodbye</td><td>= Tchau</td></tr>
+    </table>
+    <p>Para o 8º ano, os alunos repetem em duplas: <em>Hello / Hi / How are you? / I'm good.</em></p>
+
+    <h3 class="mini">Lógica bem curtinho</h3>
+    <p>Em vez de um vídeo muito infantil sobre programação, uma explicação direta seguida de demonstração prática:</p>
+    <div class="quote">"Um algoritmo é uma sequência de passos para realizar uma tarefa."</div>
+    <p><strong>Como fazer um sanduíche?</strong></p>
+    <ol><li>pegar o pão</li><li>abrir o pão</li><li>colocar o recheio</li><li>fechar o pão</li><li>comer</li></ol>
+    <p><em>"E se eu colocar o recheio depois de comer?"</em> Os alunos entendem a ideia de ordem dos passos, base da lógica de programação.</p>
+
+    <table class="schedule-table">
+      <tr><th>Tempo</th><th>Atividade</th></tr>
+      <tr><td class="time">5 min</td><td>apresentação + explicar o que será a aula</td></tr>
+      <tr><td class="time">4 min</td><td>vídeo de inglês</td></tr>
+      <tr><td class="time">8 min</td><td>explicar saudações + repetição em duplas</td></tr>
+      <tr><td class="time">3 min</td><td>vídeo curtinho de lógica</td></tr>
+      <tr><td class="time">8 min</td><td>explicar algoritmo e sequência</td></tr>
+      <tr><td class="time">12 min</td><td>atividade impressa</td></tr>
+      <tr><td class="time">5 min</td><td>correção/conversa final</td></tr>
+      <tr><td class="time"><strong>45 min</strong></td><td><strong>Total</strong></td></tr>
+    </table>
+    <p>Objetivo: evitar conteúdo demais na primeira aula. Os alunos devem sair pensando:</p>
+    <div class="quote">"eu consigo falar algumas coisas em inglês"<br>"eu consigo entender o que é lógica"<br>"programação não é tão difícil quanto eu imaginava."</div>
+  </section>
+
+  <!-- prévia do que vem na aula 2 -->
+  <section class="block" id="proxima">
+    <div class="block-head">
+      <span class="step-num">→</span>
+      <h2>Estrutura da próxima aula</h2>
+    </div>
+    <p><strong>Aula 2: "Como um computador entende nossas instruções?"</strong></p>
+    <ul>
+      <li>revisão do inglês;</li><li>comandos básicos;</li><li>algoritmo;</li><li>sequência;</li>
+      <li>entrada → processamento → saída;</li><li>primeiros exercícios de lógica;</li>
+      <li>introdução ao conceito de programação;</li><li>atividade prática em grupo.</li>
+    </ul>
+  </section>
+
+  <!-- lista de exercícios para praticar -->
+  <section class="block" id="exercicios">
+    <div class="block-head">
+      <span class="step-num">📝</span>
+      <h2>Exercícios para fixar o aprendizado</h2>
+    </div>
+
+    <div class="exercise">
+      <span class="ex-title">1 · VOCABULÁRIO: LIGUE OS PARES</span>
+      <p>Ligue cada palavra em inglês ao seu significado em português.</p>
+      <div class="grid2">
+        <div><strong>Inglês</strong><ol type="a"><li>developer</li><li>website</li><li>error</li><li>button</li><li>search</li></ol></div>
+        <div><strong>Português</strong><ol><li>botão</li><li>pesquisar</li><li>site</li><li>erro</li><li>desenvolvedor</li></ol></div>
+      </div>
+      <p>a) <span class="fill" style="min-width:40px"></span> b) <span class="fill" style="min-width:40px"></span> c) <span class="fill" style="min-width:40px"></span> d) <span class="fill" style="min-width:40px"></span> e) <span class="fill" style="min-width:40px"></span></p>
+    </div>
+
+    <div class="exercise">
+      <span class="ex-title">2 · COMPLETE O DIÁLOGO</span>
+      <p>Complete as falas com as expressões que você aprendeu (Hello / Hi / My name is / Nice to meet you).</p>
+      <p><span class="who" style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--teal)">ALUNO A:</span> <span class="fill"></span> What's your name?</p>
+      <p><span class="who" style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--teal)">ALUNO B:</span> Hi! <span class="fill"></span> Pedro.</p>
+      <p><span class="who" style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--teal)">ALUNO A:</span> <span class="fill"></span>!</p>
+      <p><span class="who" style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--teal)">ALUNO B:</span> Nice to meet you too!</p>
+    </div>
+
+    <div class="exercise">
+      <span class="ex-title">3 · VERDADEIRO OU FALSO</span>
+      <ol>
+        <li>O computador consegue adivinhar o que queremos, mesmo sem instruções claras. ( )</li>
+        <li>"Password" significa "senha". ( )</li>
+        <li>"Delete" significa "salvar". ( )</li>
+        <li>Um algoritmo é uma sequência de passos para resolver um problema. ( )</li>
+      </ol>
+    </div>
+
+    <div class="exercise logic">
+      <span class="ex-title">4 · COLOQUE OS PASSOS NA ORDEM CORRETA</span>
+      <p>Numere de 1 a 5 a ordem certa para "fazer um sanduíche":</p>
+      <ul class="checklist">
+        <li>( ) fechar o pão</li><li>( ) abrir o pão</li><li>( ) pegar o pão</li><li>( ) comer</li><li>( ) colocar o recheio</li>
+      </ul>
+    </div>
+
+    <div class="exercise logic">
+      <span class="ex-title">5 · SE / SENÃO</span>
+      <p>Complete a lógica de cada situação, como fizemos com o exemplo da chuva.</p>
+      <p><strong>a)</strong> Se a bateria do celular estiver fraca...</p>
+      <div class="code"><span class="kw">SE</span> ______________________________
+    ______________________________
+<span class="kw">SENÃO</span>
+    ______________________________</div>
+      <p><strong>b)</strong> Se o jogo pedir a senha errada três vezes...</p>
+      <div class="code"><span class="kw">SE</span> ______________________________
+    ______________________________
+<span class="kw">SENÃO</span>
+    ______________________________</div>
+    </div>
+
+    <div class="exercise logic">
+      <span class="ex-title">6 · TESTE A LÓGICA DA SENHA</span>
+      <div class="code"><span class="kw">SE</span> a senha estiver correta
+    entrar
+<span class="kw">SENÃO</span>
+    mostrar "senha incorreta"</div>
+      <p>Senha correta: <strong>2580</strong></p>
+      <p>a) Se o usuário digitar <strong>2580</strong>, o programa mostra: <span class="fill"></span></p>
+      <p>b) Se o usuário digitar <strong>1111</strong>, o programa mostra: <span class="fill"></span></p>
+    </div>
+
+    <div class="exercise logic">
+      <span class="ex-title">7 · ENCONTRE O BUG</span>
+      <p>Assim como no exemplo do tênis e da meia, encontre o erro na ordem abaixo:</p>
+      <ol><li>tomar banho</li><li>colocar sabonete no corpo</li><li>se enxaguar</li></ol>
+      <p>Onde está o erro? <span class="fill" style="min-width:100%"></span></p>
+    </div>
+
+    <div class="exercise">
+      <span class="ex-title">8 · TAREFA DE CASA: CHECKLIST</span>
+      <ul class="checklist">
+        <li>Pesquisei 10 palavras em inglês usadas em celulares, jogos ou computadores.</li>
+        <li>Escrevi a tradução de cada palavra.</li>
+        <li>Criei um algoritmo com 5 a 10 passos de uma atividade do meu dia a dia.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>ENGLISH &amp; LOGIC · AULA 1 · 8º ANO DO ENSINO FUNDAMENTAL</p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
