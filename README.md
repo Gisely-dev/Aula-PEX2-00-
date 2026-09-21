@@ -266,7 +266,7 @@ O arquivo `index.html` ficará como página inicial do projeto.
 O projeto também pode ser acompanhado por um material em PDF para impressão no drive:
 
 ```text
-Aula00PEXII.pdf
+Aula00PEXII.txt
 ```
 
 Esse arquivo não faz parte dos três arquivos usados para o funcionamento da página, mas pode ser mantido no repositório como material complementar da aula.
